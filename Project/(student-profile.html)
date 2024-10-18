@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="mt-5">Student Profile</h2>
+        <p><strong>Username:</strong> <span id="studentUsername"></span></p>
+        <p><strong>Enrolled Courses:</strong></p>
+        <ul id="coursesList"></ul>
+        <button class="btn btn-danger" onclick="logout()">Logout</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
